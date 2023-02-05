@@ -1,8 +1,8 @@
-# Skill Alexa com ChatGPT
-
 <p align="center">
-  <img src="assets/cover.png" width="100%" height="450">
+  <img src="assets/logo.png" width="100" height="100" style="border-radius: 20px;">
 </p>
+
+# Skill Alexa com ChatGPT
 
 Este repositório contém um exemplo de como usar o modelo de linguagem ChatGPT da OpenAI para criar uma Skill para Alexa.
 
