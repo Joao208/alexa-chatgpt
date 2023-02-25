@@ -35,7 +35,7 @@ const LaunchRequestHandler = {
   },
   async handle(handlerInput) {
     const response =
-      'Seja bem vindo ao GPT-3. Você pode perguntar algo como "chat qual a capital da França?"';
+      'Seja bem-vindo ao GPT-3. Você pode perguntar algo como "chat, qual a capital da França?"';
 
     return handlerInput.responseBuilder.speak(response).getResponse();
   },
@@ -71,7 +71,7 @@ const HelpIntentHandler = {
   },
   handle(handlerInput) {
     const speakOutput =
-      "Você pode perguntar algo como 'chat ideia de nome para bebes'";
+      "Você pode perguntar algo como 'chat, ideia de nome para bebês'";
 
     return handlerInput.responseBuilder.speak(speakOutput).getResponse();
   },
