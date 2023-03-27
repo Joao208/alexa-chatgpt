@@ -1,30 +1,30 @@
-# Skill Alexa com ChatGPT
+#Alexa Skill with ChatGPT
 
-Este repositório contém um exemplo de como usar o modelo de linguagem ChatGPT da OpenAI para criar uma Skill para Alexa.
+This repository contains an example of how to use OpenAI's ChatGPT language model to create an Alexa Skill.
 
-## Como funciona
+## How it works
 
-Este código se conecta à API do ChatGPT da OpenAI e envia as perguntas da Alexa para o modelo, que as processa e retorna as respostas. Em seguida, essas respostas são transmitidas de volta à Alexa e apresentadas ao usuário.
+This code connects to the OpenAI ChatGPT API and sends Alexa's questions to the model, which processes them and returns the answers. Then, these responses are transmitted back to Alexa and presented to the user.
 
-## Configuração
+## Configuration
 
-Você precisará obter uma chave API da OpenAI para usar o modelo ChatGPT. Mais informações sobre como fazer isso podem ser encontradas na documentação da API da OpenAI.
+You will need to obtain an API key from OpenAI to use the ChatGPT model. More information on how to do this can be found in the OpenAI API documentation.
 
-Uma vez que você tenha sua chave API, basta inseri-la no arquivo index.js no lugar indicado.
+Once you have your API key, simply insert it into the index.js file in the designated location.
 
-## Executando o exemplo
+## Running the example
 
-Este exemplo foi desenvolvido usando o ASK CLI da Amazon. Para executá-lo, você precisará instalar o ASK CLI e configurar sua conta da Amazon Developer.
+This example was developed using Amazon's ASK CLI. To run it, you will need to install the ASK CLI and configure your Amazon Developer account.
 
-Depois de configurado, basta executar os seguintes comandos no terminal:
+Once configured, simply run the following commands in the terminal:
 
-```bash
+```
 ask init
 ask deploy
 ```
 
-Isso irá implantar sua Skill na sua conta da Amazon Developer e torná-la disponível para uso com a Alexa.
+This will deploy your Skill to your Amazon Developer account and make it available for use with Alexa.
 
-### Considerações finais
+## Final considerations
 
-Este é apenas um exemplo básico de como usar o ChatGPT com a Alexa. Você pode expandir essa implementação para criar habilidades mais complexas e personalizadas. Aproveite!
+This is just a basic example of how to use ChatGPT with Alexa. You can expand this implementation to create more complex and personalized skills. Enjoy!
