@@ -1,4 +1,4 @@
-#Alexa Skill with ChatGPT
+# Alexa Skill with ChatGPT
 
 This repository contains an example of how to use OpenAI's ChatGPT language model to create an Alexa Skill.
 
